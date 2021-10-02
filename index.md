@@ -4,5 +4,14 @@ I am multi-talented with intrests and experience in different fields both relate
 
 # Projects 
 
-## YouTube 
+## Car Electrical Patching
 
+## Computer Technician Tracker
+
+## tempatmakanan.com (Malaysia Food Places) 
+
+## Twitch
+
+## Udemy
+
+## YouTube
