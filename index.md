@@ -4,7 +4,8 @@ I am multi-talented with intrests and experience in different fields both relate
 
 # Projects 
 
-## Car Electrical Patching
+## Car Electrical Wiring Repair
+![Octocat](raw.githubusercontent.com/ahuckphin/projects/gh-pages/Car%20Electrical%20Wiring%20Repair.JPG)
 
 ## Computer Technician Tracker
 
