@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+</style>
+
+<body>
+
+
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">Ch'ng Huck Phin</h2>
+            <p class="w3-opacity"><i>2nd year university student</i></p>
+            <p class="w3-justify">Multi-talented individual pursuing a computing degree. Pursues projects not affliated
+                to academics in spare time. </p>
+                <button class="w3-button w3-black w3-margin-bottom"
+                onclick="location.href = ' '">Resume</button>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-black" id="tour">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Projects </h2>
+                <p class="w3-opacity w3-center"><i>Past and Present. Successes and Failures.</i></p><br>
+
+
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/CarElectricalWiringRepair.jpg" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Car Electrical Wiring Repair</b></p>
+                            <p>I have attempted the partial disassembly and reassembly of a 1993 Honda Accord to remove unessassary wires and patch wires with missing insulations.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('CarElectricalWiringRepairModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/ComputerTechnician.jpg" alt="San Francisco" style="width:100%"
+                            class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Computer Technician</b></p>
+
+                            <p>On laptop and desktop computers, troubleshooted hardware, executed software installation
+                                + configuration with disk imaging and performed quality checks. </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ComputerTechnicianModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/InsertImage.png" alt="San Francisco" style="width:100%"
+                            class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Computer Technician Tracker</b></p>
+
+                            <p> Basic web application programmed with HTML and PHP. Basic functions includes storing computer particulars like serial number and Windows product key, retrieving of aforementioned information and area for inputting work done on a per ID basis. </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://github.com/ahuckphin/Computer-Technician-Tracker'">View on GitHub</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/InsertImage.jpg" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Kopitiam Management System</b></p>
+                            <p> </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('UniversityClub&SocietyModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/TempatMakanan.png" alt="San Francisco" style="width:100%"
+                            class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>tempatmakanan.com (Malaysia Food Places)</b></p>
+
+                            <p>Website built with WordPress that attempts to make finding food in Malaysia easier with
+                                filters like district and food. </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.tempatmakanan.com'">View Website</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/InsertImage.jpg" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Trash Hero Penang</b></p>
+                            <p> </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('UniversityClub&SocietyModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/TwitchIcon.png" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Twitch</b></p>
+                            <p>I livestream my life. </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.twitch.tv/yescomp '">Co-Working Streams</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.twitch.tv/yalahmedia '">Miscallenous
+                                Streams</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/InsertImage.jpg" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Udemy</b></p>
+                            <p> </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('UniversityClub&SocietyModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+                   
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/InsertImage.jpg" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>University Class Videos</b></p>
+                            <p> </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('UniversityClub&SocietyModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/CarElectricalWiringRepair.jpg" alt="Twitch" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>University Club & Society</b></p>
+                            <p> </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('UniversityClub&SocietyModule').style.display='block'">Read
+                                More</button>
+                        </div>
+                    </div>
+                   
+
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="/project/YaLahMediaIcon.png" alt="YouTube" style="width:100%"
+                            class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>YouTube</b></p>
+                            <p>Producing (photography, videography, editing) and publishing videos onto YouTube since
+                                May 2014. </p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCOSeJq2f7iT62M8WuaFRPTw/videos'">Bus
+                                Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCty60YBEdgfOBfa6SFeOvNw/videos '">Computer
+                                Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCH7rZntNeJY4xAb057H9sKA/videos '">Film
+                                Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCjPYU9Z7AIK_cPM3WzEyAHQ/videos '">Game
+                                Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCuzDFL6m77eO9W29fWgnd9g/videos '">Food
+                                & Drinks Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCYHwHoUEqD6GR267t2UfE2w/videos '">Locations
+                                & Event Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UC8ARIRL7CQgAOSopk2159Ag/videos '">Toy
+                                Videos</button>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="location.href = 'https://www.youtube.com/channel/UCwhIDd9t_Rovg2Vz3YmQdiw/videos '">Miscallenous
+                                Videos</button>
+                        </div>
+                    </div>
+
+                 
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modules -->
+    
+
+        <div id="ComputerTechnicianModule" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ComputerTechnicianModule').style.display='none'"
+                        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                    <h2 class="w3-wide"></i>Computer Technician</h2>
+                </header>
+                <div class="w3-container">
+                    <p>Growing up, I had a passion and intrest in being a computer technician. In September 2020, during
+                        my internship, my skills and knowledge was put to the test. It was a
+                        "be in the right place at the right moment" and since my internship concluded, I have both
+                        volunteered and been contracted to provide computer technician service. </p>
+                    <p>I have worked on: </p>
+                    <p><label><i class="fa fa-check"></i></label> computers built since 2005</p>
+                    <p><label><i class="fa fa-check"></i></label> custom built computers and computers from different OEMs including Acer, Asus, Dell, HP and Lenovo</p>
+                    <p><label><i class="fa fa-check"></i></label> AMD and Intel processor equipped computers</p>
+                    <p><label><i class="fa fa-check"></i></label> Windows and Linux operating systems</p>
+                    <p><label><i class="fa fa-check"></i></label> Apporximately 500 computers</p>
+                    <p>All the steps I took to perform installation and configuration of Windows and Ubuntu was documented on a step by step basis and shared with my employeers. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+        </p>
+    </footer>
+
+    <script>
+        // Automatic Slideshow - change image every 4 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
